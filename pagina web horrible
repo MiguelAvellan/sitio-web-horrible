@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>mi sitio web mas horrible</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>MI SITIO WEB MAS HORRIBLE :b.</h1>
-    <p>Hola espero y no te guste, si te gusta creo que tienes un mal gusto 😅</p>
-    <h2>QUIERES OIR UN MAL CHISTE</h2>
-             <ul>
-                   <li>PERSONA1:¿Cómo se despiden los químicos?</li>
-                   <li>PERSONA2:COMO?</li>
-                   <li>PERSONA1:Ácido un placer 🤣.</li>
-             </ul>
-     <img src="mem3.jpg" alt="Image 1">
-     <img src="gallinas.jpg" alt="Image 1">
+@keyframes color-change {
+    0% {
+      color: rgb(255, 81, 0);
+    }
+  
+    50% {
+      color: rgb(25, 0, 255);
+    }
+  
+    100% {
+      color: rgb(255, 0, 0);
+    }
+}
 
+body {
+    animation: color-change 3s infinite;
+}
 
-</body>
-</html>
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 40px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #2bff00; /* El color del fondo de la página web */
+}
